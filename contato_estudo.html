@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+    <title>Contato - Terra Média</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="titulo_principal">
+    <h1>O senhor dos anéis</h1>
+    <h2>Uma das trilogias mais famosas do cinema</h2>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="sinopse.html">Sinopse</a>
+        <a href="imagemfilme.html">Imagem do filme</a>
+        <a href="personagens.html">Personagens principais</a>
+        <a href="informacoes.html">Informações</a>
+        <a href="ordem.html">Ordem dos filmes</a>
+        <a href="curiosidades.html">Curiosidades</a>
+        <a href="impacto.html">Impacto Cultural</a>
+        <a href="contato.html">Contato</a>
+        <a href="Universo.html">Universo</a>
+        <a href="Conclusão.html">Universo</a>
+
+    </nav>
+</div>
+
+<h1 class="titulo_secundario">Envie sua mensagem à Terra Média</h1>
+<p>Use o formulário abaixo para enviar sua mensagem ao Conselho de Elrond.</p>
+
+<form action="" method="post">
+  <label for="namex">Seu nome (como é conhecido na Terra Média):</label>
+  <input type="text" value="Texto" minlength="3" maxlength="10" placeholder="Ex: Aragorn, filho de Arathorn" title="Informe o nome" id="namex"><br><br>
+
+  <label>Seu e-mail (para resposta dos magos):</label>
+  <input type="email" placeholder="seuemail@valfenda.com"><br><br>
+
+  <label>Ano de nascimento (para definir sua era):</label>
+  <input type="number"><br><br>
+
+  <label>Telefone (ou forma de contato do Condado):</label>
+  <input type="tel"><br><br>
+
+  <label>Seu reino ou site (caso possua):</label>
+  <input type="url" placeholder="https://meureino.com"><br><br>
+
+  <label>Senha secreta (para acessar os portões de Moria):</label>
+  <input type="password"><br><br>
+
+  <label>Envie um artefato ou mensagem (arquivo):</label>
+  <input type="file"><br><br>
+
+  <label>Escolha a cor do seu estandarte:</label>
+  <input type="color"><br><br>
+
+  <label>Data de nascimento (na Terra Média):</label>
+  <input type="date"><br><br>
+
+  <fieldset>
+    <legend>Campos relacionados a tempo</legend>
+  <label>Data e hora da sua jornada:</label>
+  <input type="datetime-local"><br><br>
+
+  <label>Hora preferida para encontros do conselho:</label>
+  <input type="time"><br><br>
+
+  <label>Mês de sua jornada:</label>
+  <input type="month"><br><br>
+
+  <label>Semana da missão:</label>
+  <input type="week"><br><br>
+  </fieldset>
+
+  <label>Buscar personagem ou local:</label>
+  <input type="search" placeholder="Ex: Frodo, Mordor, Gandalf"><br>
+
+  <label for="desejoterramedia">Desejo terra media</label><br>
+  <textarea name="desejoterramedia" id="desejoterramedia" minlength="10" maxlength="1000" rows="5" cols="70"></textarea><br>
+
+  <label for="personagens">Qual seu personagem principal?</label>
+  <select required id="personagens">
+    <option value="Frodo Bolseiro">Frodo Bolseiro</option>
+    <option value="Gandalf">Gandalf</option>
+    <option value="Aragon">Aragon</option>
+    <option value="Legolas">Legolas</option>
+    <option value="Gollum">Gollum</option>
+  </select><br><br>
+
+  <input type="radio" name="filmepreferido" value="Filme 1" id="filme1"><label for="filme1">Filme 1</label>
+  <input type="radio" name="filmepreferido" value="Filme 2" id="filme2"><label for="filme2">Filme 2</label>
+  <input type="radio" name="filmepreferido" value="Filme 3" id="filme3"><label for="filme3">Filme 3</label>
+
+  <select id="lista_suspensa" name="lista">
+            <optgroup label="Teste de legenda no combobox">
+                <option value="Teste 1">Teste 1</option>
+                <option value="Teste 2">Teste 2</option>
+                <option value="Teste 3">Teste 3</option>
+            </optgroup>
+            <optgroup label="Teste de legenda no combobox 2">
+                <option value="Teste 4">Teste 4</option>
+                <option value="Teste 5">Teste 5</option>
+                <option value="Teste 6">Teste 6</option>
+            </optgroup>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Desenvolvimento para internet</legend>
+            <label><input type="checkbox" name="php" value="php">PHP</label>
+            <label><input type="checkbox" name="html5" value="html5">HTML5</label>
+            <label><input type="checkbox" name="css" value="css">CSS</label>
+            <label><input type="checkbox" name="js" value="js">JAVASCRIPT</label>
+        </fieldset>
+
+        <input type="text" id="busca_datalist" list="paises">
+        <datalist id="paises">
+        <option>Brasil</option>
+        <option>França</option>
+        <option>Argentina</option>
+        <option>Alemanha</option>
+        <option>Inglaterra</option>
+        <option>Espanha</option>
+        </datalist>
+
+       <audio controls autoplay loop>
+         <source src="audio/musica.mp3" type="audio/mp3">
+       </audio><br><br>
+
+       <video controls muted autoplay loop poster>
+         <source src="video/videoteste.mp4" type="video/mp4"
+       </video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hIDLgpByNbQ?si=lt1OQhJvvG6j3jzS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d57876.919052006066!2d-53.497137505953084!3d-24.955652529625365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sendere%C3%A7o%20unipar!5e0!3m2!1spt-BR!2sbr!4v1774833314830!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ 
+  <button type="reset">Limpar pergaminho</button>
+  <button type="submit">Enviar mensagem</button>
+</form>
+
+</body>
+</html>
